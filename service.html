@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title is dynamically injected -->
+    <title>Service Details | EME Building</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css?v=4">
+
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Header Navigation -->
+    <header id="site-header" class="scrolled">
+        <div class="container nav-wrapper">
+            <a href="index.html" class="logo">EME <span>Building</span></a>
+
+            <button class="mobile-toggle" aria-label="Toggle Navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <nav id="primary-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#services" class="active">Services</a></li>
+                    <li><a href="index.html#portfolio">Our Work</a></li>
+                    <li><a href="about.html">Why Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <a href="contact.html" class="btn btn-primary nav-cta">Get a Quote</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Dynamic Service Header -->
+    <section class="page-header" id="service-header-bg"
+        style="background: linear-gradient(rgba(15, 23, 42, 0.8), rgba(15, 23, 42, 0.9)); padding: 120px 0 60px; text-align: center; color: white;">
+        <div class="container">
+            <h1 id="service-title" class="text-white" style="font-size: 3rem; margin-bottom: 1rem;">Loading...</h1>
+            <p id="service-subtitle" style="font-size: 1.2rem; color: #cbd5e1; max-width: 600px; margin: 0 auto;"></p>
+        </div>
+    </section>
+
+    <!-- Dynamic Service Content -->
+    <section class="section-padding bg-light">
+        <div class="container service-layout">
+
+            <!-- Left Column: Rich Text Content -->
+            <div class="service-main-content">
+                <div id="service-content-container" class="rich-text-content">
+                    <!-- Sanity Rich Text Blocks injected here -->
+                </div>
+            </div>
+
+            <!-- Right Column: Sticky Sidebar -->
+            <aside class="service-sidebar">
+
+                <!-- Widget 1: Quick Contact CTA -->
+                <div class="sidebar-widget quote-widget"
+                    style="background: var(--clr-primary); color: white; border-color: var(--clr-primary);">
+                    <h3 style="color: white; border-bottom-color: rgba(255,255,255,0.2);">Need Help Fast?</h3>
+                    <p style="color: #cbd5e1; margin-bottom: 1.5rem;">Get a free, no-obligation estimate for your next
+                        project.</p>
+                    <a href="contact.html" class="btn btn-primary btn-block">Book This Service</a>
+                </div>
+
+                <!-- Widget 2: Guarantees -->
+                <div class="sidebar-widget">
+                    <h3>Why Choose Us</h3>
+                    <ul class="guarantee-list">
+                        <li><i class="fa-solid fa-circle-check"></i> Licensed & Insured</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Free Estimates</li>
+                        <li><i class="fa-solid fa-circle-check"></i> 100% Satisfaction</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Professional Team</li>
+                        <li><i class="fa-solid fa-circle-check"></i> Transparent Pricing</li>
+                    </ul>
+                </div>
+
+                <!-- Widget 3: Other Services -->
+                <div class="sidebar-widget">
+                    <h3>Other Services</h3>
+                    <div class="service-links-list" id="sidebar-services-list">
+                        <a href="#">Loading...</a>
+                    </div>
+                </div>
+
+            </aside>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-wrapper">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">EME <span>Building</span>.</a>
+                <p>Your trusted partner for all home and commercial maintenance needs. Quality work, guaranteed.</p>
+                <div class="socials">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#services">Services</a></li>
+                    <li><a href="index.html#portfolio">Our Work</a></li>
+                    <li><a href="about.html">Why Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links">
+                <h4>Services</h4>
+                <ul id="footer-services-list">
+                    <li>
+                        <p>Loading...</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 EME Building Handyman Services. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="script.js?v=3"></script>
+</body>
+
+</html>
